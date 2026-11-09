@@ -1,0 +1,10 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-primary: rgb(251, 236, 206);
+  --theme-color-secondary: #331b06;
+  --theme-transition: all 0.3s ease-in-out;
+}
