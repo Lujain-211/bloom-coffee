@@ -6,5 +6,18 @@
 :root {
   --theme-color-primary: rgb(251, 236, 206);
   --theme-color-secondary: #331b06;
+  --theme-color-tertiary: rgb(255,190,255); 
+  --theme-color-accent: rgb(68, 241, 198);
+  --them-color-accent-2: rgb(156, 17, 98);
+  --theme-color-body: rgb(225, 100, 30);
+
   --theme-transition: all 0.3s ease-in-out;
-}
+
+  --theme-font-body: "..", .., ,,,;
+  --theme-font-heading: "..", .., ..;
+
+  --theme-fornt-size-base: 16px
+  --theme-line-height-body: 1.5;
+  --theme-line-height-hrading: 1.1;
+
+} 

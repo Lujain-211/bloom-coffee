@@ -13,7 +13,7 @@
       </div>
       <?php wp_nav_menu( array( 'theme_location' => 'menu-footer', 'menu_id' => 'menu-footer' ) ); ?>
       <div class="footer-text">
-        <p> &copy; Tanja Kobler</p>
+        <p> &copy; Bloom Coffee. All rights reserved.</p>
       </div>
     </div>
   </footer><!-- #colophon -->
