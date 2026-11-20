@@ -42,6 +42,10 @@
         );
         ?>
     </nav><!-- #site-navigation -->
+    <div class="header-actions d-flex align-items-center gap-2">
+      <a href="/login" class="btn btn-secondary">Login</a>
+      <a href="/contact" class="btn btn-primary">Contact Us</a>
+    </div>
   </header><!-- #masthead -->
 
   <div id="content" class="site-content">

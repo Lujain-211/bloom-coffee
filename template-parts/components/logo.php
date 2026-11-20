@@ -10,7 +10,7 @@ $site_name = get_bloginfo( 'name' );
   <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="<?php echo esc_attr( $site_name ); ?>">
     <img
       class="site-logo"
-      src="<?php echo esc_url( $logo_url ); ?>"
+      src="/wp-content/uploads/2026/11/Rectangle-140.svg"
       alt="<?php echo esc_attr( $site_name ); ?>"
       width="283"
       height="57"

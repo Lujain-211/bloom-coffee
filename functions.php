@@ -37,3 +37,4 @@ include( 'configure/plugins.php' );
 if(is_admin()) {
 	include( 'configure/admin.php' );
 }
+

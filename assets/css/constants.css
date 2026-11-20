@@ -4,20 +4,66 @@
  * Keep colors and reusable theme values here.
  */
 :root {
-  --theme-color-primary: rgb(251, 236, 206);
-  --theme-color-secondary: #331b06;
-  --theme-color-tertiary: rgb(255,190,255); 
-  --theme-color-accent: rgb(68, 241, 198);
-  --them-color-accent-2: rgb(156, 17, 98);
-  --theme-color-body: rgb(225, 100, 30);
+  --theme-color-primary: #6E3B14;
+  --theme-color-secondary: #3E1B01;
+  --theme-color-tertiary: #F4EDE5;
+  --theme-color-accent: #965320;
+  --them-color-accent-2:#E9D6C3;
+   --theme-color-body: #FFFFFF;
+  
+  --bs-light: #F4EDE5;
+  --bs-dark: #3E1B01;
+    --bs-white: #FFFFFF;
+  --bs-body-bg: #FFFFFF;
+  --bs-body-color:  #000000;
+  --bs-secondary-color: #6E3B14;
+   --bs-tertiary-bg: #E9D6C3;
+  --bs-link-color: #6E3B14;
 
-  --theme-transition: all 0.3s ease-in-out;
+  --bs-link-hover-color: #3E1B01;
+   --bs-border-color: #E9D6C3;
+  --bs-border-color-translucent: rgba(110, 59, 20, 0.15);
+  --bs-focus-ring-color: rgba(110, 59, 20, 0.25);
+  --bs-box-shadow-sm: 0 0.125rem 0.5rem rgba(62, 27, 1, 0.06);
+  --bs-box-shadow: 0 0.5rem 1.5rem rgba(62, 27, 1, 0.08);
+  --bs-box-shadow-lg: 0 1rem 3rem rgba(62, 27, 1, 0.12);
+  transition: all 0.3s;
+}
+* .btn{
+  border-radius: 40px;
+  padding: 8px 24px;
+    font-weight: 500;
 
-  --theme-font-body: "..", .., ,,,;
-  --theme-font-heading: "..", .., ..;
+}
+.btn-primary {
+  color: var(--theme-color-body);
+  background-color: var(--theme-color-primary);
+  border-color: var(--theme-color-primary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active {
+  color: var(--theme-color-body);
+  background-color: var(--theme-color-secondary);
+  border-color: var(--theme-color-secondary);
+}
 
-  --theme-fornt-size-base: 16px
-  --theme-line-height-body: 1.5;
-  --theme-line-height-hrading: 1.1;
+.btn-secondary {
+  color: var(--theme-color-primary);
+  background-color: var(--theme-color-body);
+  border-color: var(--theme-color-body);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+}
 
-} 
+.btn-secondary:hover,
+.btn-secondary:active ,
+.btn-secondary.active {
+  color: var(--theme-color-body);
+  background-color: var(--theme-color-primary);
+  border-color: var(--theme-color-primary);
+
+}
+
+
+
