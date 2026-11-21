@@ -33,6 +33,14 @@ while (have_rows('page_modules')) : the_row();
   }
 
   switch (get_row_layout()) {
+      case 'booking_form':
+      get_template_part('template-parts/flex/layout', 'booking_form'); break;
+          case 'menu_grid':
+      get_template_part('template-parts/flex/layout', 'menu_grid'); break;
+      case 'app_promo':
+      get_template_part('template-parts/flex/layout', 'app_promo'); break;
+        case 'featured_drink':
+      get_template_part('template-parts/flex/layout', 'featured_drink'); break;
     case 'hero':
       get_template_part('template-parts/flex/layout', 'hero'); break;
 
